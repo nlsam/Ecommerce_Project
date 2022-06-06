@@ -26,6 +26,7 @@ import com.stripe.model.PaymentIntent;
 @Service
 public class CheckoutServiceImpl implements CheckoutService {
 
+	//Added notes
     private CustomerRepository customerRepository;
 
     public CheckoutServiceImpl(CustomerRepository customerRepository, 
